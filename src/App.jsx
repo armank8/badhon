@@ -1,8 +1,13 @@
 import "./App.css";
+import Home from "./pages/Home/Home";
+import Navbar from "./pages/Shared/Navbar";
+import TopBar from "./pages/Shared/TopBar";
 
 function App() {
   return <div>
-    <button className="btn btn-secondary">Secondary</button>
+    <TopBar></TopBar>
+    <Navbar></Navbar>
+    <Home></Home>
   </div>;
 }
 

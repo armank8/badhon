@@ -1,4 +1,4 @@
-import Footer from '../Shared/Footer'
+// import Footer from '../Shared/Footer'
 import Banner from './Banner'
 import Posts from './Posts'
 import Reach from './Reach'
@@ -11,7 +11,7 @@ export default function Home() {
         <Posts></Posts>
         <Response></Response>
         <Reach></Reach>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
     </div>
   )
 }

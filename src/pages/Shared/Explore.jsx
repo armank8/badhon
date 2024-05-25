@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { blog_posts } from "../../constants/Blogs";
+import BlogCard from "./BlogCard";
 
 export default function Explore() {
   const [activeButton, setActiveButton] = useState("all");
@@ -44,8 +46,11 @@ export default function Explore() {
             Blogs
           </button>
         </div>
-        <div className="blogs_body">
-            
+        {/* Blogs body */}
+        <div className="blogs_body grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-20">
+          {blog_posts.map((post) => (
+            <BlogCard key={post._id} post={post}></BlogCard>
+          ))}
         </div>
       </div>
     </div>

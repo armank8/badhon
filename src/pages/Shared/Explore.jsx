@@ -44,6 +44,9 @@ export default function Explore() {
             Blogs
           </button>
         </div>
+        <div className="blogs_body">
+            
+        </div>
       </div>
     </div>
   );

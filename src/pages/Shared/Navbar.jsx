@@ -1,7 +1,13 @@
+import { Link } from "react-router-dom";
+import { IoChevronDown } from "react-icons/io5";
+
+import { FaSearch } from "react-icons/fa";
+import MenuItems from "./MenuItems";
+
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100">
-        {/* title and other */}
+    <div className="navbar bg-base-100 max-w-7xl mx-auto">
+      {/* title and other */}
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,69 +49,37 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link to="/" className="btn btn-ghost text-3xl font-black text-primary">
+          Badhon NGO
+        </Link>
       </div>
       {/* middle menu */}
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="menu xl:menu-horizontal lg:min-w-max bg-base-200 rounded-box">
-  <li>
-    <a>Solutions</a>
-    <ul>
-      <li><a>Design</a></li>
-      <li><a>Development</a></li>
-      <li><a>Hosting</a></li>
-      <li><a>Domain register</a></li>
-    </ul>
-  </li>
-  <li>
-    <a>Enterprise</a>
-    <ul>
-      <li><a>CRM software</a></li>
-      <li><a>Marketing management</a></li>
-      <li><a>Security</a></li>
-      <li><a>Consulting</a></li>
-    </ul>
-  </li>
-  <li>
-    <a>Products</a>
-    <ul>
-      <li><a>UI Kit</a></li>
-      <li><a>Wordpress themes</a></li>
-      <li><a>Wordpress plugins</a></li>
-      <li>
-        <a>Open source</a>
-        <ul>
-          <li><a>Auth management system</a></li>
-          <li><a>VScode theme</a></li>
-          <li><a>Color picker app</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a>Company</a>
-    <ul>
-      <li><a>About us</a></li>
-      <li><a>Contact us</a></li>
-      <li><a>Privacy policy</a></li>
-      <li><a>Press kit</a></li>
-    </ul>
-  </li>
-</ul>
-            </details>
+      <div className="navbar-center  hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 ">
+          <li className="">
+            <div className="dropdown dropdown-hover">
+              <label className="text-primary flex items-center gap-3"> WHO We Are <IoChevronDown></IoChevronDown> </label>
+
+              <MenuItems type="who_we_are"></MenuItems>
+            </div>
           </li>
-          
+
+          <li className="">
+            <div className="dropdown dropdown-hover dropdown-bottom">
+            <label className="text-primary flex items-center gap-3"> What We Do <IoChevronDown></IoChevronDown> </label>
+
+              <MenuItems type="what_we_do"></MenuItems>
+            </div>
+          </li>
         </ul>
       </div>
 
       {/* end button */}
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn btn-primary text-white mr-5">Donate</a>
+        <div className="font-bold">
+          <FaSearch></FaSearch>
+        </div>
       </div>
     </div>
   );

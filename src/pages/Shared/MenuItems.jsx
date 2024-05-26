@@ -1,4 +1,5 @@
 import menu_img_1 from "../../assets/img/who-we-are-header.jpg";
+import menu_img_2 from "../../assets/img/what-we-do-header.jpg";
 
 export default function MenuItems({ type, className }) {
   return (
@@ -50,7 +51,31 @@ export default function MenuItems({ type, className }) {
             </li>
 
             <li>
+              <img src={menu_img_2} className="w-72 rounded-md" alt="" />
+            </li>
+          </>
+        )}
+
+        {type === "contents" && (
+          <>
+            <li>
+              <a>PRESS RELEASE</a>
+              <a>MEDIA COVERAGE</a>
+              <a>BLOGK</a>
+              <a>NEWS</a>
+            </li>
+            <li>
+              <a>IMPACT STORIES</a>
+              <a>PUBLICATIONS </a>
+              <a>GALLERY </a>
+              <a>NETWORKS </a>
+              <a>ARCHIVE </a>
+            </li>
+            <li>
               <img src={menu_img_1} className="w-72 rounded-md" alt="" />
+            </li>
+            <li>
+              <img src={menu_img_2} className="w-72 rounded-md" alt="" />
             </li>
           </>
         )}

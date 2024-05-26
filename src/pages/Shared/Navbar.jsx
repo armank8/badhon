@@ -56,19 +56,34 @@ export default function Navbar() {
       {/* middle menu */}
       <div className="navbar-center  hidden lg:flex">
         <ul className="menu menu-horizontal px-1 ">
+          {/* list item -1 */}
           <li className="">
             <div className="dropdown dropdown-hover">
-              <label className="text-primary flex items-center gap-3"> WHO We Are <IoChevronDown></IoChevronDown> </label>
+              <label className="text-primary flex items-center gap-3">
+                Who We Are <IoChevronDown></IoChevronDown>
+              </label>
 
               <MenuItems type="who_we_are"></MenuItems>
             </div>
           </li>
-
+          {/* list item 2 */}
           <li className="">
             <div className="dropdown dropdown-hover dropdown-bottom">
-            <label className="text-primary flex items-center gap-3"> What We Do <IoChevronDown></IoChevronDown> </label>
+              <label className="text-primary flex items-center gap-3">
+                What We Do <IoChevronDown></IoChevronDown>
+              </label>
 
               <MenuItems type="what_we_do"></MenuItems>
+            </div>
+          </li>
+          {/* list item 3 */}
+          <li className="">
+            <div className="dropdown dropdown-hover dropdown-bottom">
+              <label className="text-primary flex items-center gap-3">
+                Contents <IoChevronDown></IoChevronDown>
+              </label>
+
+              <MenuItems type="contents"></MenuItems>
             </div>
           </li>
         </ul>

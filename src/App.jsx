@@ -9,8 +9,9 @@ import SingleBlog from "./pages/Shared/SingleBlog";
 
 
 function App() {
+  
   return (
-    <div>
+    <div >
       <TopBar></TopBar>
       <Navbar></Navbar>
 

@@ -5,7 +5,7 @@ export default function MenuItems({ type, className }) {
   return (
     <div className="flex items-center justify-center">
       <ul
-        className={` dropdown-content absolute top-16   z-[1] xl:menu-horizontal lg:min-w-max bg-base-100 rounded-box w-full ${className}`}
+        className={` dropdown-content absolute top-16 left-5    z-[1] xl:menu-horizontal lg:min-w-max bg-base-100 rounded-box w-full ${className}`}
       >
         {type === "who_we_are" && (
           <>

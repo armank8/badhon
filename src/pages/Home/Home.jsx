@@ -4,6 +4,7 @@ import Banner from './Banner'
 import Posts from './Posts'
 import Reach from './Reach'
 import Response from './Response'
+import SocialMedia from './SocialMedia'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Response></Response>
         <Reach></Reach>
         <Explore></Explore>
+        <SocialMedia></SocialMedia>
         {/* <Footer></Footer> */}
     </div>
   )

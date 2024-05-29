@@ -30,7 +30,7 @@ export default function SocialMedia() {
               {" "}
               <TfiYoutube></TfiYoutube> <span className="">Youtube</span>
             </h2>
-            <YouTube videoId="AbI690V4EUw" opts={opts}></YouTube>
+            {/* <YouTube videoId="AbI690V4EUw" opts={opts}></YouTube> */}
           </div>
           {/* facebook */}
          

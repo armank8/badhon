@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import BottomBar from "./pages/Shared/BottomBar";
@@ -6,6 +6,7 @@ import Footer from "./pages/Shared/Footer";
 import Navbar from "./pages/Shared/Navbar";
 import TopBar from "./pages/Shared/TopBar";
 import SingleBlog from "./pages/Shared/SingleBlog";
+// import Navbar1 from "./pages/Shared/Navbar1";
 
 
 function App() {

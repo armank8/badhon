@@ -2,10 +2,13 @@ import menu_img_1 from "../../assets/img/who-we-are-header.jpg";
 import menu_img_2 from "../../assets/img/what-we-do-header.jpg";
 
 export default function MenuItems({ type, className }) {
+  const liClass =
+    "flex flex-col justify-center gap-3 text-black hover:text-primary";
+  const liContainer = "flex gap-10 px-10 py-10";
   return (
     <div className="flex items-center justify-center">
-      <ul
-        className={` dropdown-content absolute top-16    z-[1] xl:menu-horizontal lg:min-w-max bg-base-100 rounded-box w-full ${className}`}
+       <ul
+        className={` dropdown-content absolute top-8   z-[1] xl:menu-horizontal lg:min-w-max bg-base-100 rounded-box w-full ${className}`}
       >
         {type === "who_we_are" && (
           <>
@@ -51,34 +54,12 @@ export default function MenuItems({ type, className }) {
             </li>
 
             <li>
-              <img src={menu_img_2} className="w-72 rounded-md" alt="" />
+              <img src={menu_img_1} className="w-72 rounded-md" alt="" />
             </li>
           </>
         )}
 
-        {type === "contents" && (
-          <>
-            <li>
-              <a>PRESS RELEASE</a>
-              <a>MEDIA COVERAGE</a>
-              <a>BLOGK</a>
-              <a>NEWS</a>
-            </li>
-            <li>
-              <a>IMPACT STORIES</a>
-              <a>PUBLICATIONS </a>
-              <a>GALLERY </a>
-              <a>NETWORKS </a>
-              <a>ARCHIVE </a>
-            </li>
-            <li>
-              <img src={menu_img_1} className="w-72 rounded-md" alt="" />
-            </li>
-            <li>
-              <img src={menu_img_2} className="w-72 rounded-md" alt="" />
-            </li>
-          </>
-        )}
+
       </ul>
     </div>
   );

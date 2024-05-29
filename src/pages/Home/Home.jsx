@@ -16,7 +16,7 @@ export default function Home() {
         <Reach></Reach>
         <Explore></Explore>
         <SocialMedia></SocialMedia>
-        <SingleBlog></SingleBlog>
+        {/* <SingleBlog></SingleBlog> */}
         {/* <Footer></Footer> */}
     </div>
   )

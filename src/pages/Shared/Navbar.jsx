@@ -77,7 +77,7 @@ export default function Navbar() {
             </div>
           </li>
           {/* list item 3 */}
-          <li className="">
+          {/* <li className="">
             <div className="dropdown dropdown-hover dropdown-bottom">
               <label className="text-primary flex items-center gap-3">
                 Contents <IoChevronDown></IoChevronDown>
@@ -85,7 +85,7 @@ export default function Navbar() {
 
               <MenuItems type="contents"></MenuItems>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
 

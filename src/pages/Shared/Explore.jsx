@@ -1,15 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { blog_posts } from "../../constants/Blogs";
 import BlogCard from "./BlogCard";
+import "animate.css";
+import { motion } from "framer-motion";
 
 export default function Explore() {
   const [activeButton, setActiveButton] = useState("all");
 
   const handleButtonClick = (buttonName) => {
-    console.log(activeButton);
     setActiveButton(buttonName);
   };
+
+  useEffect(() => {
+    
+  }, [activeButton]);
+  // console.log(activeButton);
+  const blogs = blog_posts.filter((blog) =>
+    activeButton === "all" ? blog : blog.category.includes(activeButton)
+  );
   return (
     <div className="max-w-7xl mx-auto my-28">
       {/* titloe */}
@@ -47,11 +56,16 @@ export default function Explore() {
           </button>
         </div>
         {/* Blogs body */}
-        <div className="blogs_body grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-20">
-          {blog_posts.map((post) => (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.2 }}
+          className="blogs_body grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-20 animate__slideInUp"
+        >
+          {blogs.map((post) => (
             <BlogCard key={post._id} post={post}></BlogCard>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

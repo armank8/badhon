@@ -7,6 +7,7 @@ import Navbar from "./pages/Shared/Navbar";
 import TopBar from "./pages/Shared/TopBar";
 import SingleBlog from "./pages/Shared/SingleBlog";
 
+
 function App() {
   return (
     <div>

@@ -5,7 +5,7 @@ export const blog_posts = [
     name: "RefugeCraft1",
     image: blog_post,
     desc: "The Child Rights Advocacy Coalition Bangladesh (CRAC, B) orchestrated a Mock Universal Periodic Review (UPR) for children on February 28, 2024, at the CIRDAP International Conference Centre in Dhaka. The primary goal was to enlighten children about the recommendations received during the 4th Cycle of Universal Periodic Review (UPR) on child rights, conducted in November 2023. Out of the 300 recommendations received by the Government of Bangladesh, approximately 90 were related to children. The event aimed to reaffirm the necessity for the government to accept and implement these recommendations, solicit the children's perspectives on these recommendations, adaptation and implementation plans, and ensure their effective participation in relevant stages of UPR follow-up processes.",
-    category:'Publications',
+    category:'news',
     date:'25/5/24',
   },
   {
@@ -13,7 +13,7 @@ export const blog_posts = [
     name: "RefugeCraft2",
     image: blog_post,
     desc: "The Child Rights Advocacy Coalition Bangladesh (CRAC, B) orchestrated a Mock Universal Periodic Review (UPR) for children on February 28, 2024, at the CIRDAP International Conference Centre in Dhaka. The primary goal was to enlighten children about the recommendations received during the 4th Cycle of Universal Periodic Review (UPR) on child rights, conducted in November 2023. Out of the 300 recommendations received by the Government of Bangladesh, approximately 90 were related to children. The event aimed to reaffirm the necessity for the government to accept and implement these recommendations, solicit the children's perspectives on these recommendations, adaptation and implementation plans, and ensure their effective participation in relevant stages of UPR follow-up processes.",
-    category:'Publications',
+    category:'blogs',
     date:'25/5/24',
   },
   {
@@ -21,7 +21,7 @@ export const blog_posts = [
     name: "RefugeCraft3",
     image: blog_post,
     desc: "The Child Rights Advocacy Coalition Bangladesh (CRAC, B) orchestrated a Mock Universal Periodic Review (UPR) for children on February 28, 2024, at the CIRDAP International Conference Centre in Dhaka. The primary goal was to enlighten children about the recommendations received during the 4th Cycle of Universal Periodic Review (UPR) on child rights, conducted in November 2023. Out of the 300 recommendations received by the Government of Bangladesh, approximately 90 were related to children. The event aimed to reaffirm the necessity for the government to accept and implement these recommendations, solicit the children's perspectives on these recommendations, adaptation and implementation plans, and ensure their effective participation in relevant stages of UPR follow-up processes.",
-    category:'Publications',
+    category:'blogs',
     date:'25/5/24',
   },
   {
@@ -29,7 +29,7 @@ export const blog_posts = [
     name: "RefugeCraft4",
     image: blog_post,
     desc: "The Child Rights Advocacy Coalition Bangladesh (CRAC, B) orchestrated a Mock Universal Periodic Review (UPR) for children on February 28, 2024, at the CIRDAP International Conference Centre in Dhaka. The primary goal was to enlighten children about the recommendations received during the 4th Cycle of Universal Periodic Review (UPR) on child rights, conducted in November 2023. Out of the 300 recommendations received by the Government of Bangladesh, approximately 90 were related to children. The event aimed to reaffirm the necessity for the government to accept and implement these recommendations, solicit the children's perspectives on these recommendations, adaptation and implementation plans, and ensure their effective participation in relevant stages of UPR follow-up processes.",
-    category:'Publications',
+    category:'news',
     date:'25/5/24',
   },
   {
@@ -37,7 +37,7 @@ export const blog_posts = [
     name: "RefugeCraft5",
     image: blog_post,
     desc: "The Child Rights Advocacy Coalition Bangladesh (CRAC, B) orchestrated a Mock Universal Periodic Review (UPR) for children on February 28, 2024, at the CIRDAP International Conference Centre in Dhaka. The primary goal was to enlighten children about the recommendations received during the 4th Cycle of Universal Periodic Review (UPR) on child rights, conducted in November 2023. Out of the 300 recommendations received by the Government of Bangladesh, approximately 90 were related to children. The event aimed to reaffirm the necessity for the government to accept and implement these recommendations, solicit the children's perspectives on these recommendations, adaptation and implementation plans, and ensure their effective participation in relevant stages of UPR follow-up processes.",
-    category:'Publications',
+    category:'blogs',
     date:'25/5/24',
   },
   {
@@ -45,7 +45,7 @@ export const blog_posts = [
     name: "RefugeCraft6",
     image: blog_post,
     desc: "The Child Rights Advocacy Coalition Bangladesh (CRAC, B) orchestrated a Mock Universal Periodic Review (UPR) for children on February 28, 2024, at the CIRDAP International Conference Centre in Dhaka. The primary goal was to enlighten children about the recommendations received during the 4th Cycle of Universal Periodic Review (UPR) on child rights, conducted in November 2023. Out of the 300 recommendations received by the Government of Bangladesh, approximately 90 were related to children. The event aimed to reaffirm the necessity for the government to accept and implement these recommendations, solicit the children's perspectives on these recommendations, adaptation and implementation plans, and ensure their effective participation in relevant stages of UPR follow-up processes.",
-    category:'Publications',
+    category:'news',
     date:'25/5/24',
   },
   {
@@ -53,7 +53,7 @@ export const blog_posts = [
     name: "RefugeCraft7",
     image: blog_post,
     desc: "The Child Rights Advocacy Coalition Bangladesh (CRAC, B) orchestrated a Mock Universal Periodic Review (UPR) for children on February 28, 2024, at the CIRDAP International Conference Centre in Dhaka. The primary goal was to enlighten children about the recommendations received during the 4th Cycle of Universal Periodic Review (UPR) on child rights, conducted in November 2023. Out of the 300 recommendations received by the Government of Bangladesh, approximately 90 were related to children. The event aimed to reaffirm the necessity for the government to accept and implement these recommendations, solicit the children's perspectives on these recommendations, adaptation and implementation plans, and ensure their effective participation in relevant stages of UPR follow-up processes.",
-    category:'Publications',
+    category:'news',
     date:'25/5/24',
   },
   {
@@ -61,7 +61,7 @@ export const blog_posts = [
     name: "RefugeCraft8",
     image: blog_post,
     desc: "The Child Rights Advocacy Coalition Bangladesh (CRAC, B) orchestrated a Mock Universal Periodic Review (UPR) for children on February 28, 2024, at the CIRDAP International Conference Centre in Dhaka. The primary goal was to enlighten children about the recommendations received during the 4th Cycle of Universal Periodic Review (UPR) on child rights, conducted in November 2023. Out of the 300 recommendations received by the Government of Bangladesh, approximately 90 were related to children. The event aimed to reaffirm the necessity for the government to accept and implement these recommendations, solicit the children's perspectives on these recommendations, adaptation and implementation plans, and ensure their effective participation in relevant stages of UPR follow-up processes.",
-    category:'Publications',
+    category:'blogs',
     date:'25/5/24',
   },
 ];

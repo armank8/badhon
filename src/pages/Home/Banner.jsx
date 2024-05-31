@@ -1,4 +1,3 @@
-import a from "../../assets/img/a.jpg";
 import b from "../../assets/img/b.jpeg";
 export default function Banner() {
   return (

@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { FaFacebook } from "react-icons/fa";
 import { IoChevronDown } from "react-icons/io5";
 import MenuItems from "./MenuItems";
 export default function Navbar1() {
@@ -42,7 +43,10 @@ export default function Navbar1() {
           <MenuItems type={openMenu}></MenuItems>
         </li>
       </ul>
-      <div>Follow us on :Social</div>
+      <div>
+        <span>Follow us on :</span>
+        <FaFacebook></FaFacebook>
+      </div>
     </nav>
   );
 }

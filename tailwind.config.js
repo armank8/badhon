@@ -6,11 +6,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      colors:{
-        'custom-active': '#ED1C24',
-      }
-    },
+    extend: {},
   },
   daisyui: {
     themes: [
